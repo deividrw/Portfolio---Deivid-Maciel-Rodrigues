@@ -1,0 +1,89 @@
+#principal {
+  justify-content: center;
+  display: absolute;
+}
+
+.inicio {
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  top: 0.95rem;
+
+  position: relative;
+  font-size: 2rem;
+  color: white;
+
+  -webkit-text-stroke: 0.1px white;
+}
+
+.description {
+  font-family: "Work Sans", sans-serif;
+  position: static;
+  font-size: larger;
+  margin: 1.56rem;
+  left: 12rem;
+  right: 12rem;
+  padding: 1.25rem;
+
+  color: white;
+  -webkit-text-stroke: 0.2px white;
+}
+
+
+
+#contato {
+  justify-content: center;
+  text-align: center;
+}
+
+.contato {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-family: bold 11px arial, sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+.perfil {
+  position: relative;
+  margin-top: 3rem;
+  justify-items: center;
+  border: solid 2px white;
+  border-radius: 50%;
+  height: 15rem;
+  object-fit: cover;
+  width: 15rem;
+}
+
+#iconP {
+display: flex;
+justify-content: center;  
+}
+
+.icon {
+  width: 4rem;
+  position: relative;
+  display: inline;
+  padding: 10px;
+
+}
+
+
+
+.icon:hover {
+  transform: translateY(-8px);
+  transition: 0.5s;
+}
+
+.contactsText {
+  color: rgb(224, 186, 186);
+}
+
+.copyright {
+  color: white;
+  position: relative;
+  font-size: 1.2rem;
+  
+  
+}
