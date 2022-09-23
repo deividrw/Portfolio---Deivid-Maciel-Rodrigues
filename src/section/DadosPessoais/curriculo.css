@@ -6,9 +6,12 @@
     width: 100%;
     margin: 0;
 }
+h1,h2,h3,h4,h5,h6{
+color: white;
+}
 
 .aboutHome{
-    background: linear-gradient(160deg,#e7b547,#fff,#be8dda,#fff,#e7b547);
+    background-color: #1a1e47;
     margin: 0;
 }
 
@@ -65,14 +68,17 @@
     right:  -50%;
     height: 100%;/*Altura da linha*/
     border-left: 1px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    
   }
 
 .colleft{
+    color: white;
     text-align: right;
     border-right: 1px solid;
 }
 
 .colright{
+    color: white;
     text-align: justify;
     padding-right: 2rem;
 }
